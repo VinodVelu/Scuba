@@ -18,6 +18,7 @@ public class FirstTest {
 	    driver.findElement(By.xpath("//input[@name=\"address1\"]")).sendKeys("No: 2, abcd street main road");
 		thread.sleep(1000);
 	    driver.findElement(By.xpath("//input[@name=\"city\"]")).sendKeys("chennai");
+		thread.sleep(1000);
 	    driver.findElement(By.xpath("//input[@name=\"state\"]")).sendKeys("TamilNadu");
 	    driver.findElement(By.xpath("//input[@name=\"postalCode\"]")).sendKeys("600087");
 	    driver.findElement(By.xpath("//select[@name=\"country\"]")).click();
