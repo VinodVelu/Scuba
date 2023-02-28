@@ -20,6 +20,7 @@ public class FirstTest {
 	    driver.findElement(By.xpath("//input[@name=\"city\"]")).sendKeys("chennai");
 		thread.sleep(1000);
 	    driver.findElement(By.xpath("//input[@name=\"state\"]")).sendKeys("TamilNadu");
+		thread.sleep(1000);
 	    driver.findElement(By.xpath("//input[@name=\"postalCode\"]")).sendKeys("600087");
 	    driver.findElement(By.xpath("//select[@name=\"country\"]")).click();
 	    //driver.switchTo().frame(0);
