@@ -20,6 +20,7 @@ public class FirstTest {
 	    driver.findElement(By.xpath("//select[@name=\"country\"]")).click();
 	    //driver.switchTo().frame(0);
 	    driver.findElement(By.xpath("//option[@value=\"AUSTRALIA\"]")).click();
+		thread.sleep(1000);
 	    driver.findElement(By.xpath("//input[@name=\"email\"]")).sendKeys("ajithkumar@gmail.com");
 	    driver.findElement(By.xpath("//input[@name=\"password\"]")).sendKeys("ajith@123");
 	    driver.findElement(By.xpath("//input[@name=\"confirmPassword\"]")).sendKeys("ajith@123");
