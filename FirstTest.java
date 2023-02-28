@@ -12,6 +12,7 @@ public class FirstTest {
 	    driver.findElement(By.xpath("//input[@name=\"firstName\"]")).sendKeys("Ajith");
 	    driver.findElement(By.xpath("//input[@name=\"lastName\"]")).sendKeys("Kumar");
 	    driver.findElement(By.xpath("//input[@name=\"phone\"]")).sendKeys("9765432156");
+		thread.sleep(1000);
 	    driver.findElement(By.xpath("//input[@name=\"userName\"]")).sendKeys("ajithkumar@gmail.com");
 		thread.sleep(1000);
 	    driver.findElement(By.xpath("//input[@name=\"address1\"]")).sendKeys("No: 2, abcd street main road");
